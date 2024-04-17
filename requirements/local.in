@@ -15,4 +15,7 @@ coverage
 django-coverage-plugin
 
 django-debug-toolbar
+django-extensions
+django-fastdev
+
 whitenoise[brotli]
