@@ -33,6 +33,8 @@ LOCAL_APPS = [
 
 INSTALLED_APPS = LOCAL_APPS + THIRD_PARTY_APPS + DJANGO_APPS
 
+MIGRATION_MODULES = {"sites": "corap.contrib.sites.migrations"}
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
