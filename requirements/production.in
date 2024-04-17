@@ -1,0 +1,5 @@
+-r base.in
+
+gunicorn
+boto3[crt]
+django-storages

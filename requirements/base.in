@@ -1,0 +1,13 @@
+django
+django-environ
+django-allauth
+django-autoslug
+django-taggit
+
+psycopg[c]
+psycopg_pool
+
+Pillow
+pillow-avif-plugin
+
+argon2-cffi

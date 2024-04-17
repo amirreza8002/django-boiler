@@ -1,0 +1,18 @@
+-r production.in
+
+pip-tools
+
+black
+ruff
+
+mypy
+django-stubs
+
+pytest
+pytest-django
+pytest-sugar
+coverage
+django-coverage-plugin
+
+django-debug-toolbar
+whitenoise[brotli]
